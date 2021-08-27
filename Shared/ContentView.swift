@@ -26,8 +26,10 @@ struct ContentView: View {
                         .font(.subheadline)
                     Spacer()
                     Text("California")
-                        .font(.subheadline)
                 }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+
                 
                 Divider()
 
